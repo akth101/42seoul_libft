@@ -33,7 +33,7 @@ ft_split - 문자열을 특정 구분자로 나눔
 ft_strlcpy, ft_strlcat - 안전한 문자열 복사 및 붙이기
 ft_striteri - 문자열의 각 문자에 대해 함수 적용
 ft_strmapi - 변환된 문자열을 반환
-2. 메모리 관리 함수
+3. 메모리 관리 함수
 ft_memset - 메모리를 특정 값으로 초기화
 ft_memcpy - 메모리를 다른 메모리로 복사
 ft_memmove - 메모리를 겹치지 않게 이동
@@ -41,17 +41,17 @@ ft_bzero - 메모리를 0으로 초기화
 ft_memchr - 메모리에서 특정 값을 검색
 ft_memcmp - 두 메모리 영역을 비교
 ft_calloc - 초기화된 메모리를 할당
-3. 변환 함수
+4. 변환 함수
 ft_atoi - 문자열을 정수로 변환
 ft_itoa - 정수를 문자열로 변환
 ft_tolower - 문자를 소문자로 변환
 ft_toupper - 문자를 대문자로 변환
-4. 출력 함수
+5. 출력 함수
 ft_putchar_fd - 파일 디스크립터에 문자 출력
 ft_putstr_fd - 파일 디스크립터에 문자열 출력
 ft_putendl_fd - 파일 디스크립터에 문자열과 개행 출력
 ft_putnbr_fd - 파일 디스크립터에 정수 출력
-5. 리스트 관리 함수 (링크드리스트)
+6. 리스트 관리 함수 (링크드리스트)
 ft_lstnew - 새로운 리스트 요소를 생성
 ft_lstadd_front, ft_lstadd_back - 리스트의 앞이나 뒤에 요소 추가
 ft_lstsize - 리스트의 크기를 반환
