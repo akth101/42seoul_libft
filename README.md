@@ -62,16 +62,20 @@ ft_lstmap - 리스트의 모든 요소에 함수 적용 및 새로운 리스트 
 설치 방법
 터미널에서 이 저장소를 클론합니다.
 
+~~~
 git clone https://github.com/jmsmg/libft.git
 cd libft
+~~~
 라이브러리를 빌드합니다.
 
+~~~
 make
+~~~
 빌드 후, libft.a라는 정적 라이브러리 파일이 생성됩니다.
 
 사용 방법
 프로젝트에서 libft.a를 링크하여 사용할 수 있습니다.
-
+~~~
 #include "libft.h"
 
 int main(void) {
@@ -80,6 +84,8 @@ int main(void) {
     printf("Length: %d\n", len);
     return 0;
 }
+~~~
 컴파일할 때 libft.a를 링크합니다.
-
+~~~
 gcc -o program main.c -L. -lft
+~~~
