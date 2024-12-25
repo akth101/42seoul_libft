@@ -2,15 +2,21 @@
 C 표준 라이브러리 함수들을 직접 구현하여 나만의 라이브러리를 만드는 프로젝트
 
 목차
-1. 구현된 함수들
+
+
+1. 평가 피드백
+2. 구현된 함수들
     1. 문자열 처리 함수
     2. 메모리 관리 함수
     3. 변환 함수
     4. 출력 함수
     5. 리스트 관리 함수(Linked list)
-2. 평가 피드백
 
-### 1. 구현된 함수들
+
+### 1. 평가 피드백  
+<img width="1488" alt="스크린샷 2024-12-25 오후 2 15 37" src="https://github.com/user-attachments/assets/5ffbb714-5e15-478c-8a4e-d74d4c533983" />
+
+### 2. 구현된 함수들
 이 프로젝트에서는 다양한 C 표준 함수들과 몇 가지 유틸리티 함수를 포함합니다.
 
 1. 문자열 처리 함수
@@ -20,7 +26,7 @@ ft_strcat, ft_strncat - 문자열을 이어 붙임
 ft_strdup - 문자열을 복제하여 새로운 메모리에 할당  
 ft_strchr, ft_strrchr - 문자열에서 특정 문자를 검색  
 ft_strstr, ft_strnstr - 문자열에서 특정 문자열을 검색  
-ft_strcmp, ft_strncmp - 문자열 비교  
+ft_strcmp, ft_strncmp - 문자열 비교 
 ft_strjoin, ft_strtrim - 문자열 합치기 및 공백 제거  
 ft_substr - 문자열의 일부를 추출  
 ft_split - 문자열을 특정 구분자로 나눔  
@@ -53,5 +59,3 @@ ft_lstlast - 리스트의 마지막 요소 반환
 ft_lstdelone, ft_lstclear - 특정 요소나 전체 리스트 삭제  
 ft_lstiter - 리스트의 모든 요소에 대해 반복 작업  
 ft_lstmap - 리스트의 모든 요소에 함수 적용 및 새로운 리스트 반환  
-
-### 2. 평가 피드백
